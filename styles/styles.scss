@@ -2,12 +2,17 @@
 //         color: white;
 // }
 
-// body{
-//     background-color:white
-// }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 h1{
     margin-left: auto;
     margin-right: auto; 
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 40px;
 }
 // p{
 //     padding-left: 20vw;
@@ -63,15 +68,31 @@ section{
     display: flex;
     flex-direction: row;
 }
+.grow-together p{
+    padding-right: 100px;
+}
 
 .flowing-conversation{
     display: flex;
     flex-direction: row;
+    h2{
+        padding-left: 100px;
+    }
+    p{
+        padding-left: 100px;    
+    }
 }
+
 .users{
     background-color:#F6FBFF;
     display: flex;
     flex-direction: row;
+    h2{
+        padding-right: 100px;
+    }
+    p{
+        padding-right: 100px;    
+    }
 }
 .filter-white{
     filter: invert(100%) sepia(0%) saturate(500%) hue-rotate(245deg) brightness(111%) contrast(103%);
@@ -83,9 +104,42 @@ section{
     color: white;
     display: flex;
     flex-direction: row;
+    padding: 10vw;
+    align-items: flex-start;
+}
+.input{
+    display: flex;
+}
+.footer-btn{
+    background-color:#FF52C1;
+    color: white;
+   height:40px;
+   margin-left: 20px;
 }
 
+.footer input{
+    height:40px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.social p {
+    margin-left: 10px;
+}
+.social img{
+    padding-bottom: 10px;
+}
 
+ .newsletter{
+    //  
+    padding-left: 100px;
+}
+.company{
+    padding-right: 100px;
+}
 .spacer{
     // aspect-ratio: 1440/300;
     height:30vh;
