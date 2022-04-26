@@ -1,0 +1,124 @@
+// .navbar{
+//         color: white;
+// }
+
+// body{
+//     background-color:white
+// }
+h1{
+    margin-left: auto;
+    margin-right: auto; 
+}
+// p{
+//     padding-left: 20vw;
+//     padding-right: 20vw;
+// }
+section{
+   position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 10vw;
+}
+.navbar{
+    height: 160px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.try-it{
+    border-radius: 40px;
+    border: 1px solid #FF52C1;
+    color: #FF52C1;
+}
+.main-p{
+    margin-top: 50px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.get-started{
+    background-color: #FF52C1;
+    border-radius: 40px;
+    width: 400px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 125px;
+}
+.grow-together{
+    // height: 60vh;
+    background-color:#F6FBFF;
+    display: flex;
+    flex-direction: row;
+}
+
+.flowing-conversation{
+    display: flex;
+    flex-direction: row;
+}
+.users{
+    background-color:#F6FBFF;
+    display: flex;
+    flex-direction: row;
+}
+.filter-white{
+    filter: invert(100%) sepia(0%) saturate(500%) hue-rotate(245deg) brightness(111%) contrast(103%);
+}
+
+.footer{
+    height: 50vh;
+    background-color:#00252E;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.spacer{
+    // aspect-ratio: 1440/300;
+    height:30vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+.bq-1{
+    width: 100%;
+    height: 165px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+.layer1{
+    background-image: url(../images/bg-section-top-desktop-1.svg);
+    height: 250px;
+}
+.layer2{
+    background-image: url(../images/bg-section-bottom-desktop-1.svg);
+    height: 139px;
+}
+.layer3{
+    background-image: url(../images/bg-section-top-desktop-2.svg);
+    height: 200px;
+}
+.layer4{
+    background-image: url(../images/bg-section-bottom-desktop-2.svg);
+    height: 139px;
+}
+.layer5{
+    background-image: url(../images/bg-footer-top-desktop.svg);
+    height: 220px;
+}
+
