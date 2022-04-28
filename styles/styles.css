@@ -1,5 +1,12 @@
+html,
 body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -11,6 +18,7 @@ h1 {
 h2 {
   font-family: 'Poppins', sans-serif;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 section {
@@ -61,7 +69,7 @@ section {
 .get-started {
   background-color: #FF52C1;
   border-radius: 40px;
-  width: 400px;
+  width: 40vw;
   height: 80px;
   margin-top: 20px;
   margin-bottom: 100px;
@@ -214,17 +222,16 @@ section {
   background-size: cover;
 }
 
-.bq-1 {
-  width: 100%;
-  height: 165px;
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: cover;
-}
-
 .layer1 {
   background-image: url(../images/bg-section-top-desktop-1.svg);
   height: 250px;
+  width: 100%;
+}
+
+.layer1-mobile {
+  background-image: url(../images/bg-section-top-mobile-1.svg);
+  height: 250px;
+  display: none;
 }
 
 .layer2 {
@@ -232,9 +239,20 @@ section {
   height: 139px;
 }
 
+.layer2-mobile {
+  background-image: url(../images/bg-section-bottom-mobile-1.svg);
+  height: 139px;
+  display: none;
+}
+
 .layer3 {
   background-image: url(../images/bg-section-top-desktop-2.svg);
   height: 200px;
+}
+
+.layer3-mobile {
+  background-image: url(../images/bg-section-top-mobile-2.svg);
+  display: none;
 }
 
 .layer4 {
@@ -242,8 +260,156 @@ section {
   height: 139px;
 }
 
+.layer4-mobile {
+  background-image: url(../images/bg-section-bottom-mobile-2.svg);
+  display: none;
+}
+
 .layer5 {
   background-image: url(../images/bg-footer-top-desktop.svg);
   height: 220px;
+}
+
+.layer5-mobile {
+  background-image: url(../images/bg-footer-top-mobile.svg);
+  height: 220px;
+  display: none;
+}
+
+@media only screen and (max-width: 826px) {
+  .grow-together {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    text-align: center;
+    padding: 0;
+  }
+  .grow-together img {
+    margin-bottom: 50px;
+  }
+  .grow-together p {
+    padding: 0;
+  }
+  .flowing-conversation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 0;
+  }
+  .flowing-conversation img {
+    margin-bottom: 50px;
+  }
+  .flowing-conversation h2 {
+    padding: 0;
+  }
+  .flowing-conversation p {
+    padding: 0;
+  }
+  .users {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    text-align: center;
+  }
+  .users img {
+    margin-bottom: 50px;
+  }
+  .users h2 {
+    padding: 0;
+  }
+  .users p {
+    padding: 0;
+  }
+  .layer1-mobile {
+    display: block;
+  }
+  .layer1 {
+    display: none;
+  }
+  .layer2-mobile {
+    display: block;
+  }
+  .layer2 {
+    display: none;
+  }
+  .layer3-mobile {
+    display: block;
+  }
+  .layer3 {
+    display: none;
+  }
+  .layer4-mobile {
+    display: block;
+  }
+  .layer4 {
+    display: none;
+  }
+  .layer5-mobile {
+    display: block;
+  }
+  .layer5 {
+    display: none;
+  }
+  .info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .info-spacer {
+    margin-bottom: 100px;
+  }
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .newsletter {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .company {
+    padding: 0;
+  }
+  .input {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-btn {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .navbar-brand img {
+    width: 160px;
+  }
+  .navbar-brand button {
+    width: 100px;
+  }
+  .main-p, .users {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .get-started {
+    width: 60vw;
+    height: 50px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
