@@ -69,6 +69,7 @@ section {
 .get-started {
   background-color: #FF52C1;
   border-radius: 40px;
+  font-weight: bold;
   width: 40vw;
   height: 80px;
   margin-top: 20px;
@@ -373,6 +374,7 @@ section {
   }
   .footer-btn {
     margin-top: 10px;
+    width: 110px;
   }
 }
 
