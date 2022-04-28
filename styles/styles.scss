@@ -11,7 +11,6 @@ body {
     padding: 0px;
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
-    // overflow-x: hidden;
     overflow-x: hidden;
 }
 
@@ -170,7 +169,6 @@ section {
 }
 
 .spacer {
-    // aspect-ratio: 1440/300;
     height: 30vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -178,13 +176,6 @@ section {
     background-size: cover;
 }
 
-// .bq-1{
-//     width: 100%;
-//     height: 165px;
-//     background-repeat: no-repeat;
-//     background-position: left;
-//     background-size: cover;
-// }
 .layer1 {
     background-image: url(../images/bg-section-top-desktop-1.svg);
     height: 250px;
@@ -215,7 +206,6 @@ section {
 
 .layer3-mobile {
     background-image: url(../images/bg-section-top-mobile-2.svg);
-
     display: none;
 }
 
@@ -265,16 +255,11 @@ section {
 
         img {
             margin-bottom: 50px;
-            ;
         }
 
-        h2 {
-            padding: 0;
-        }
-
+        h2,
         p {
             padding: 0;
-
         }
     }
 
@@ -284,58 +269,29 @@ section {
 
         img {
             margin-bottom: 50px;
-            ;
         }
 
-        h2 {
-            padding: 0;
-        }
-
+        h2,
         p {
             padding: 0;
         }
     }
 
-    .layer1-mobile {
-        display: block;
-    }
-
-    .layer1 {
-        display: none;
-    }
-
-    .layer2-mobile {
-        display: block;
-    }
-
-    .layer2 {
-        display: none;
-    }
-
-    .layer3-mobile {
-        display: block;
-    }
-
-    .layer3 {
-        display: none;
-    }
-
-    .layer4-mobile {
-        display: block;
-    }
-
-    .layer4 {
-        display: none;
-    }
-
+    .layer1-mobile,
+    .layer2-mobile,
+    .layer3-mobile,
+    .layer4-mobile,
     .layer5-mobile {
         display: block;
     }
 
+    .layer1,
+    .layer2,
+    .layer3,
+    .layer4,
     .layer5 {
         display: none;
     }
-
 
     .info {
         flex-direction: column;
@@ -349,7 +305,7 @@ section {
         flex-direction: column-reverse;
         height: fit-content;
         align-items: center;
-       @include left-right-padding;
+        @include left-right-padding;
     }
 
     .newsletter {
@@ -380,7 +336,8 @@ section {
         width: 100px;
     }
 
-    .main-p, .users {
+    .main-p,
+    .users {
         @include left-right-padding;
     }
 
@@ -388,5 +345,4 @@ section {
         width: 60vw;
         height: 50px;
     }
-
 }

@@ -303,9 +303,7 @@ section {
   .flowing-conversation img {
     margin-bottom: 50px;
   }
-  .flowing-conversation h2 {
-    padding: 0;
-  }
+  .flowing-conversation h2,
   .flowing-conversation p {
     padding: 0;
   }
@@ -319,39 +317,21 @@ section {
   .users img {
     margin-bottom: 50px;
   }
-  .users h2 {
-    padding: 0;
-  }
+  .users h2,
   .users p {
     padding: 0;
   }
-  .layer1-mobile {
-    display: block;
-  }
-  .layer1 {
-    display: none;
-  }
-  .layer2-mobile {
-    display: block;
-  }
-  .layer2 {
-    display: none;
-  }
-  .layer3-mobile {
-    display: block;
-  }
-  .layer3 {
-    display: none;
-  }
-  .layer4-mobile {
-    display: block;
-  }
-  .layer4 {
-    display: none;
-  }
+  .layer1-mobile,
+  .layer2-mobile,
+  .layer3-mobile,
+  .layer4-mobile,
   .layer5-mobile {
     display: block;
   }
+  .layer1,
+  .layer2,
+  .layer3,
+  .layer4,
   .layer5 {
     display: none;
   }
@@ -403,7 +383,8 @@ section {
   .navbar-brand button {
     width: 100px;
   }
-  .main-p, .users {
+  .main-p,
+  .users {
     padding-left: 0;
     padding-right: 0;
   }
